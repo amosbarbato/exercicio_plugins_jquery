@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="content">
+                <form>
+                    <div class="form-title">
+                        <h2>Cadastro</h2>
+                    </div>
+
+                    <div class="form-side">
+                        <div class="inputBox">
+                            <input class="form-input" type="text" id="name" placeholder="Digite seu nome" name="name" required;/>
+                        </div>
+                        <div class="inputBox">
+                            <input class="form-input" type="email" id="email" placeholder="Digite seu email" name="email" required />
+                        </div>
+                        <div class="inputBox">
+                            <input class="form-input" type="phone" id="phone" placeholder="Digite seu telefone" name="phone" required />
+                        </div>
+                        <div class="inputBox">
+                            <input class="form-input" type="text" id="cpf" placeholder="Digite seu CPF" name="cpf" required />
+                        </div>
+                        <div class="inputBox">
+                            <input class="form-input" type="text" id="cep" placeholder="Digite seu CEP" name="cep" required />
+                        </div>
+                        <div class="inputBox">
+                            <input class="form-input" type="text" id="endereco" placeholder="Digite seu Endereço" name="endereco" required />
+                        </div>
+                        <div class="error-message"></div>
+                        <div class="inputBox">
+                            <input type="submit" class="button" value="Enviar" />
+                        </div>
+                    </div>
+                </form>                
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
